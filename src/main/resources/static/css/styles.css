@@ -3,16 +3,43 @@
     font-weight:500;
 }
 
+
+
+
+#TopNavbar, #CarouselCaption, #QuoteButton, #Blurb{
+    background: #2a96b1;
+    color:white
+}
+
+#Home, #Services, #Contact{
+    color:white
+}
+
 #Home:hover, #Services:hover, #Contact:hover{
     text-decoration: underline;
     cursor:pointer;
 }
 
-#Blurb{
+#QuoteButton:hover{
+    background-color: #4fcdec;
+    cursor: pointer;
+    transition-duration: .10s;
+}
+
+#QuoteButton{
+    max-width: 150px;
+    min-width: 100px;
+}
+
+#CarouselCaption{
+    min-width: 350px;
+}
+#TextImagePair{
     margin-top: 250px;
 }
 
 p{
     text-align: center;
+    color:white
 }
 
